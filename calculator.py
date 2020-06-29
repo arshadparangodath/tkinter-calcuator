@@ -3,7 +3,7 @@ from tkinter import *
 
 value = ""
 
-
+#defining buttons and it's functions
 def btn_clicked(number):
     current = label.get()
     label.delete(0, END)
@@ -64,7 +64,7 @@ window.geometry("250x400+300+300")
 window.resizable(0,0)  #couldn't resize the window
 window.title("MAP Calculator")
 
-
+#text appear field
 frame = Frame(
     window,
     borderwidth = 5,
